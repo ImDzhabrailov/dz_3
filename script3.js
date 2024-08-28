@@ -234,8 +234,8 @@
 //2
 // const vacha = ["Встать", "и", "добраться", "сидя", "до", "дома"]
 // // console.log(vacha)
-// const shasha = vacha.splice(1, 5)
-// console.log(shasha)
+// vacha.splice(0, 1)
+// console.log(vacha)
 
 //3
 // const vacha = ["Встать", "и", "добраться", "сидя", "пятый"]
@@ -389,10 +389,10 @@
 
 //3
 // const numbers = [1, 2, 3, 4, 5];
-// const sum = numbers.reduce((accumulator, currentValue, index) => {
+// const product = numbers.reduce((accumulator, currentValue) => {
 //     return accumulator * currentValue;
-// });
-// console.log(sum);
+// }, 1);
+// console.log(product);
 
 //4
 // const fruit = [
